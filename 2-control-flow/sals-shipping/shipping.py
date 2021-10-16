@@ -17,6 +17,7 @@ elif weight > 10.0:
     
 #Ground shipping print
 cost = round(cost, 2)
+#format command keeps cost to 2 decimal points
 cost = format(cost, '.2f')
 print("Ground shipping cost: $", cost)
 
